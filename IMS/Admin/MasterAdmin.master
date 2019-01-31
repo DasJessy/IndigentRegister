@@ -1,0 +1,200 @@
+﻿<%@ Master Language="VB" CodeFile="MasterAdmin.master.vb" Inherits="Admin_MasterAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="keywords" content="admin, dashboard, bootstrap, template, flat, modern, theme, responsive, fluid, retina, backend, html5, css, css3">
+  <meta name="description" content="">
+  <meta name="author" content="ThemeBucket">
+  <link rel="shortcut icon" href="#" type="image/png">
+
+  <title>Indigent Management System</title>
+
+  <!--icheck-->
+  <link href="../js/iCheck/skins/minimal/minimal.css" rel="stylesheet">
+  <link href="../js/iCheck/skins/square/square.css" rel="stylesheet">
+  <link href="../js/iCheck/skins/square/red.css" rel="stylesheet">
+  <link href="../js/iCheck/skins/square/blue.css" rel="stylesheet">
+
+  <!--dashboard calendar-->
+  <link href="../css/clndr.css" rel="stylesheet">
+
+  <!--Morris Chart CSS -->
+  <link rel="stylesheet" href="../js/morris-chart/morris.css">
+
+  <!--common-->
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/style-responsive.css" rel="stylesheet">
+
+
+   <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body class="sticky-header">
+
+<section>
+    <!-- left side start-->
+    <div class="left-side sticky-left-side">
+
+        <!--logo and iconic logo start-->
+        <div class="logo">
+            <a href="index.html"><img src="../images/logo.png" alt=""></a>
+        </div>
+
+        <div class="logo-icon text-center">
+            <a href="index.html"><img src="../images/logo_icon.png" alt=""></a>
+        </div>
+        <!--logo and iconic logo end-->
+
+        <div class="left-side-inner">
+
+            <!-- visible to small devices only -->
+            <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                <div class="media logged-user">
+                    <img alt="" src="../images/photos/user-avatar.png" class="media-object">
+                    <div class="media-body">
+                        <h4><a href="#">Admin</a></h4>
+                        <span>"Hello There..."</span>
+                    </div>
+                </div>
+
+                <h5 class="left-nav-title">Account Information</h5>
+                <ul class="nav nav-pills nav-stacked custom-nav">
+                  <li><a href="#"><i class="fa fa-user"></i> <span>Profile</span></a></li>
+                 <li><a href="#"><i class="fa fa-sign-out"></i> <span>Sign Out</span></a></li>
+                </ul>
+            </div>
+
+            <!--sidebar nav start-->
+            <ul class="nav nav-pills nav-stacked custom-nav">
+             <li><a href="Users.Aspx"><i class="fa fa-users"></i> Users</a></li>
+                    <li><a href="Roles.Aspx"><i class="fa fa-th-list"></i> Roles</a></li>                                     
+                
+            </ul>
+            <!--sidebar nav end--></div>
+    </div>
+    <!-- left side end-->
+    
+    <!-- main content start-->
+    <div class="main-content" >
+
+        <!-- header section start-->
+        <div class="header-section">
+
+            <!--toggle button start-->
+            <a class="toggle-btn"><i class="fa fa-bars"></i></a>
+            <!--toggle button end-->
+
+           
+
+            <!--notification menu start -->
+            <div class="menu-right">
+                <ul class="notification-menu">
+                    <li>
+                        <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <img src="images/photos/user-avatar.png" alt="" />
+                            <asp:Label ID="lblUser" runat="server" Text=""></asp:Label>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                            <li><a href="#"><i class="fa fa-user"></i>  Profile</a></li>
+                                                       <li><a href="../Login.aspx"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <!--notification menu end -->
+
+        </div>
+        <!-- header section end-->
+
+        <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Admin
+            </h3>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+             <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+        </div>
+        <!--body wrapper end-->
+
+        <!--footer section start-->
+        <footer>
+            2014 &copy; Genssoft Technologies
+        </footer>
+        <!--footer section end-->
+
+
+    </div>
+    <!-- main content end-->
+</section>
+
+<!-- Placed js at the end of the document so the pages load faster -->
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/modernizr.min.js"></script>
+<script src="../js/jquery.nicescroll.js"></script>
+
+<!--easy pie chart-->
+<script src="../js/easypiechart/jquery.easypiechart.js"></script>
+<script src="../js/easypiechart/easypiechart-init.js"></script>
+
+<!--Sparkline Chart-->
+<script src="../js/sparkline/jquery.sparkline.js"></script>
+<script src="js/sparkline/sparkline-init.js"></script>
+
+<!--icheck -->
+<script src="../js/iCheck/jquery.icheck.js"></script>
+<script src="../js/icheck-init.js"></script>
+
+<!-- jQuery Flot Chart-->
+<script src="../js/flot-chart/jquery.flot.js"></script>
+<script src="../js/flot-chart/jquery.flot.tooltip.js"></script>
+<script src="../js/flot-chart/jquery.flot.resize.js"></script>
+
+
+<!--Morris Chart-->
+<script src="../js/morris-chart/morris.js"></script>
+<script src="../js/morris-chart/raphael-min.js"></script>
+
+<!--Calendar-->
+<script src="../js/calendar/clndr.js"></script>
+<script src="../js/calendar/evnt.calendar.init.js"></script>
+<script src="../js/calendar/moment-2.2.1.js"></script>
+<script src="../http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+
+<!--common scripts for all pages-->
+<script src="../js/scripts.js"></script>
+
+<!--Dashboard Charts-->
+<script src="../js/dashboard-chart-init.js"></script>
+
+
+</body>
+</html>

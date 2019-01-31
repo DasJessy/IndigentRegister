@@ -1,0 +1,9 @@
+C:\Dev Backups\CMSWEB\DataLayer\bin\Release\DataLayer.dll
+C:\Dev Backups\CMSWEB\DataLayer\bin\Release\DataLayer.pdb
+C:\Dev Backups\CMSWEB\DataLayer\bin\Release\DataLayer.xml
+C:\Dev Backups\CMSWEB\DataLayer\obj\Release\ResolveAssemblyReference.cache
+C:\Dev Backups\CMSWEB\DataLayer\obj\Release\DataLayer.Resources.resources
+C:\Dev Backups\CMSWEB\DataLayer\obj\Release\DataLayer.vbproj.GenerateResource.Cache
+C:\Dev Backups\CMSWEB\DataLayer\obj\Release\DataLayer.dll
+C:\Dev Backups\CMSWEB\DataLayer\obj\Release\DataLayer.xml
+C:\Dev Backups\CMSWEB\DataLayer\obj\Release\DataLayer.pdb

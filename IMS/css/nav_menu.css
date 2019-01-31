@@ -1,0 +1,17 @@
+﻿a i{
+  vertical-align: central;
+}
+
+@media (max-width:550px) {
+  .navi_icon {
+  font-size: 0px !important;
+}
+  .nav_table{
+      margin-bottom: -10px; 
+  }
+
+a i {
+  font-size: 15px !important;
+}
+}
+

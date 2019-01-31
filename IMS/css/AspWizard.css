@@ -1,0 +1,112 @@
+﻿	body
+{
+	overflow-x: hidden;
+	background-color: #F9F9F9;
+}
+
+#wizHeader li .prevStep
+{
+    background-color: #669966;
+}
+#wizHeader li .prevStep:after
+{
+    border-left-color:#669966 !important;
+}
+#wizHeader li .currentStep
+{
+    background-color: #C36615;
+}
+#wizHeader li .currentStep:after
+{
+    border-left-color: #C36615 !important;
+}
+#wizHeader li .nextStep
+{
+    background-color:#C2C2C2;
+}
+#wizHeader li .nextStep:after
+{
+    border-left-color:#C2C2C2 !important;
+}
+#wizHeader
+{
+    list-style: none;
+    overflow: hidden;
+    font: 18px Helvetica, Arial, Sans-Serif;
+    margin: 0px;
+    padding: 0px;
+}
+#wizHeader li
+{
+    float: left;
+}
+#wizHeader li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 20px;
+    background: #669966; /* fallback color */
+    /*background: hsla(34,85%,35%,1); */
+    position: relative;
+    display: block;
+    float: left;
+}
+#wizHeader li a:after
+{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0; /* Go big on the size, and let overflow hide */
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    /*border-left: 20px solid hsla(34,85%,35%,1);*/
+    position: absolute;
+    top: 30%;
+    margin-top: -30px;
+    /*left: 100%;*/
+    z-index: 2;
+}
+#wizHeader li a:before
+{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 30%;
+    margin-top: -30px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 2;
+}       
+#wizHeader li:first-child a
+{
+    padding-left: 10px;
+}
+#wizHeader li:last-child
+{
+    padding-right: 2px;
+}
+#wizHeader li a:hover
+{
+    background: #FE9400;
+}
+#wizHeader li a:hover:after
+{
+    border-left-color: #FE9400 !important;
+}  
+#wizHeader li 
+{
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #555;
+}
+.content
+{
+              
+    padding-top:10px;
+    text-align:left;
+    background-color:#F9F9F9;
+    width:100%;
+}

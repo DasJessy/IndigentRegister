@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ENUMTypes
+</name>
+</assembly>
+<members>
+<member name="T:ENUMTypes.clsENUMTypes.enumQuoteClientSubSec">
+	<summary>
+ This is used to enumerate screen section for the internet application
+ 1. Initial questions section
+ 2. Vehicle Descriptiion Section
+ 3. Vehicle Security features section
+ 4. Vehicle Driver Information
+ 5. Vehicle Extras Section
+ 6. Client's Claim History Section
+ </summary>
+	<remarks></remarks>
+</member><member name="P:ENUMTypes.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ENUMTypes.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ENUMTypes.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

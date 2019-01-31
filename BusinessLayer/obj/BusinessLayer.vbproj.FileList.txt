@@ -1,0 +1,12 @@
+bin\Debug\BusinessLayer.dll
+bin\Debug\BusinessLayer.pdb
+bin\Debug\BusinessLayer.xml
+bin\Debug\DataLayer.dll
+bin\Debug\DataLayer.pdb
+bin\Debug\DataLayer.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BusinessLayer.Resources.resources
+obj\Debug\BusinessLayer.vbproj.GenerateResource.Cache
+obj\Debug\BusinessLayer.dll
+obj\Debug\BusinessLayer.xml
+obj\Debug\BusinessLayer.pdb

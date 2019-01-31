@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ErrorResponse
+</name>
+</assembly>
+<members>
+<member name="P:ErrorResponse.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ErrorResponse.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ErrorResponse.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:ErrorResponse.clsErrorResponse.Error_Code">
+	<remarks/>
+</member><member name="P:ErrorResponse.clsErrorResponse.Error_Type">
+	<remarks/>
+</member><member name="P:ErrorResponse.clsErrorResponse.Error_Message">
+	<remarks/>
+</member>
+</members>
+</doc>
